@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'unicodeveloper@laravel-hackathon-starter.com', 'name' => 'Laravel Hackathon Starter'],
+    'from' => ['address' => 'info@qrmenu.s57.es', 'name' => 'QR Menú'],
 
     /*
     |--------------------------------------------------------------------------
