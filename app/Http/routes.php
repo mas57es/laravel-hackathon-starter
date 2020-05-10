@@ -235,9 +235,15 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/contact', function () {
         return view('contact');
     });
+    
 
     Route::post('/contact', [
         'uses' => 'ContactController@sendMessage',
         'as'   => 'contact'
+    ]);
+    
+    Route::get('/site/{code}', [
+        'uses' => 'PageController@site',
+        'as' => 'site'
     ]);
 });
